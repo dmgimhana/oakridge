@@ -1,14 +1,16 @@
 package com.oakridge.oakridge.service;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+
 import com.oakridge.oakridge.model.Contact;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 @Service
 public class ContactService {
 
-     private static Logger log = LoggerFactory.getLogger(ContactService.class);
+    //  private static Logger log = LoggerFactory.getLogger(ContactService.class);
 
     /**
      * Saves the message details of a contact.
